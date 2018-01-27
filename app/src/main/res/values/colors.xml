@@ -1,6 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#3F51B5</color>
-    <color name="colorPrimaryDark">#303F9F</color>
-    <color name="colorAccent">#FF4081</color>
+    <color name="colorPrimary">#f37962</color>
+    <color name="colorPrimaryDark">#f35233</color>
+    <color name="colorAccent">#f35233</color>
+    <color name="grey">#F0F0F0</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="yellow_bright">#FECE51</color>
+    <color name="transparent">#00000000</color>
+    <color name="blue">#438AB8</color>
+    <color name="primaryGreen">#86D7D0</color>
+    <color name="colorLogo">#F37962</color>
+    <color name="cardview_shadow_end_color">#03000000</color>
+    <color name="cardview_shadow_start_color">#37000000</color>
+    <color name="colorPrimaryBlue">#3F51B5</color>
 </resources>
+
+
