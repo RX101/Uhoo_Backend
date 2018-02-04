@@ -1,0 +1,96 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.angruixian.u_hoo_backend.HomeFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_alignParentTop="true"
+        android:id="@+id/rlTop">
+
+        <ImageView
+            android:layout_alignParentTop="true"
+            android:scaleType="center"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/doc_profile_backround"/>
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="100dp"
+            android:layout_marginLeft="20dp"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/docImg"
+            android:layout_width="100dp"
+            android:layout_height="90dp"
+            app:civ_border_width="2dp"
+            app:civ_border_color="@color/colorPrimary"
+            android:src="@drawable/logo"/>
+
+        <Switch
+            android:id="@+id/switchStatus"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_alignBottom="@+id/docImg"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="22dp"
+            android:layout_marginEnd="47dp"
+            android:layout_marginRight="50dp"
+            android:text="Status" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@id/rlTop">
+
+
+        <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Name : Doctor Bryan "
+        android:textSize="20dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Speicialization: Cardiologist"
+            android:textSize="20dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Email: bryan@gmail.com"
+            android:textSize="20dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Mobile : 89842043 "
+            android:textSize="20dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Address: 140 Tanjong Pagar Centre"
+            android:textSize="20dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Email: bryan@gmail.com"
+            android:textSize="20dp"/>
+
+
+    </LinearLayout>
+
+</FrameLayout>
