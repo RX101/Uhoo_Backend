@@ -46,12 +46,21 @@ public class HomeActivity extends AppCompatActivity {
                     trans.commit();
                     return true;
 
-//                case R.id.navigation_history:
-//                    fragment = new FragmentHistory();
-//                    fm = getSupportFragmentManager();
-//                    trans = fm.beginTransaction();
-//                    trans.replace(R.id.mainFrameLayout, fragment);
-//                    trans.commit();
+                case R.id.navigation_history:
+                    fragment = new ConsultFragment();
+                    fm = getSupportFragmentManager();
+                    trans = fm.beginTransaction();
+                    trans.replace(R.id.mainFrameLayout, fragment);
+                    trans.commit();
+                    return true;
+
+                case R.id.navigation_payment:
+                    fragment = new PaymentFragment();
+                    fm = getSupportFragmentManager();
+                    trans = fm.beginTransaction();
+                    trans.replace(R.id.mainFrameLayout, fragment);
+                    trans.commit();
+                    return true;
 
             }
             return false;

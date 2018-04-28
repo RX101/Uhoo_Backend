@@ -41,7 +41,7 @@
                 android:layout_marginTop="20dp">
 
                 <EditText
-                    android:id="@+id/etDoctorName"
+                    android:id="@+id/etRegisterDoctorName"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:hint="Name" />
@@ -56,7 +56,7 @@
                 android:layout_marginTop="10dp">
 
                 <EditText
-                    android:id="@+id/etDoctorEmail"
+                    android:id="@+id/etRegisterDoctorEmail"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:hint="Email Address" />
@@ -71,7 +71,7 @@
                 android:layout_marginTop="10dp">
 
                 <EditText
-                    android:id="@+id/etDoctorMobileNumber"
+                    android:id="@+id/etRegisterDoctorMobileNumber"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:hint="Mobile Number" />
@@ -86,7 +86,7 @@
                 android:layout_marginTop="10dp">
 
                 <EditText
-                    android:id="@+id/etDoctorAddress"
+                    android:id="@+id/etRegisterDoctorAddress"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:hint="Address" />
@@ -101,7 +101,7 @@
                 android:layout_marginTop="10dp">
 
                 <EditText
-                    android:id="@+id/etDoctorSpecialization"
+                    android:id="@+id/etRegisterDoctorSpecialization"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:hint="Specialization" />
@@ -116,10 +116,40 @@
                 android:layout_marginTop="10dp">
 
                 <EditText
-                    android:id="@+id/etDoctorRegistrationNumber"
+                    android:id="@+id/etRegisterDoctorRegistrationNumber"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:hint="Registration Number" />
+
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="10dp">
+
+            <EditText
+                android:id="@+id/etRegisterDoctorInsurance"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Insurance" />
+
+        </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="10dp">
+
+                <EditText
+                    android:id="@+id/etRegisterDoctorDescription"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Description" />
 
             </android.support.design.widget.TextInputLayout>
 
@@ -131,12 +161,64 @@
                 android:layout_marginTop="10dp">
 
                 <EditText
-                    android:id="@+id/etDoctorInsurance"
+                    android:id="@+id/etRegisterDoctorRate"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:hint="Insurance" />
+                    android:hint="Rate" />
 
             </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="10dp">
+
+                <EditText
+                    android:id="@+id/etRegisterDoctorLanguage"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Language" />
+
+            </android.support.design.widget.TextInputLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="10dp"
+                android:textSize="20dp"
+                android:text="Profile Image"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center">
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/btnUploadImage"
+                    android:text="Upload Image"/>
+
+                <Button
+                    android:layout_marginLeft="50dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/btnTakePhoto"
+                    android:text="Take Photo"/>
+
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:id="@+id/imgViewDoctor"
+                android:layout_gravity="center" />
 
             <Button
                 android:layout_width="match_parent"

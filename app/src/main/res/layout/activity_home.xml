@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#FEF5E7"
+    android:background="@android:color/white"
     tools:context="com.example.angruixian.u_hoo_backend.HomeActivity">
 
     <LinearLayout

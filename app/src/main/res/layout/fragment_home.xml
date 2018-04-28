@@ -6,6 +6,7 @@
 
     <!-- TODO: Update blank fragment layout -->
     <RelativeLayout
+
         android:layout_width="match_parent"
         android:layout_height="200dp"
         android:layout_alignParentTop="true"
@@ -40,14 +41,16 @@
             android:layout_marginBottom="22dp"
             android:layout_marginEnd="47dp"
             android:layout_marginRight="50dp"
-            android:text="Status" />
+            android:text="Online Status" />
 
     </RelativeLayout>
 
     <LinearLayout
+        android:layout_gravity="center"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
+        android:layout_marginTop="110dp"
         android:layout_below="@id/rlTop">
 
 
@@ -62,13 +65,15 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Speicialization: Cardiologist"
+            android:text="Area of clinical interest: Cardiologist"
+            android:layout_marginTop="20dp"
             android:textSize="20dp"/>
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Email: bryan@gmail.com"
+            android:layout_marginTop="20dp"
             android:textSize="20dp"/>
 
         <TextView
@@ -76,19 +81,29 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="Mobile : 89842043 "
+            android:layout_marginTop="20dp"
             android:textSize="20dp"/>
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Address: 140 Tanjong Pagar Centre"
+            android:layout_marginTop="20dp"
             android:textSize="20dp"/>
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Email: bryan@gmail.com"
+            android:layout_marginTop="20dp"
             android:textSize="20dp"/>
+
+        <Button
+            android:layout_margin="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Receive Call"
+            android:id="@+id/btnReceiveCall"/>
 
 
     </LinearLayout>
